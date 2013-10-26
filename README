@@ -1,0 +1,10 @@
+Description:
+I sought out to do this challenge with TDD, and while I had to make some adjustments as my strategy changed, I was, for the most part, able to follow the red, green, refactor method.  Designwise, I knew I wanted the methods to be as single responsibility as possible and follow a very logical process that would be called from one method 'convert'.  The code makes it easy to make future adjustments (i.e. mineral rates change, addition roman numerals) as you would just have to update the respective key hash.
+
+Assumptions:
+The four space dollars in the test input are the only four in circulation currently.
+Users can vary how they request coversions (i.e. not just "how many/much ...")
+
+To Run:
+cd into lib and run ruby converter.rb in the command line.
+**NOTE** To run rspec tests comment out the driver code at the bottom of the converter.rb file.
